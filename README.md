@@ -59,20 +59,3 @@ SKIP_PREFLIGHT_CHECK=true yarn test:nowatch -- -u
 
 ### Run `yarn test-all` locally to make sure you don't have any errors, before submitting your PR
 
-## Instruction for running a local Sonar Qube, community edition
-
-### Prerequisites
-
-You need to install Sonar Qube community edition for your machine.
-And sonar-scanner. Then add sonar scanner to your PATH.
-
-You need to run sonar-scanner separately on root directory
-and on `app/client` directory.
-
-Luckily for you sonar scanner is automatically triggered after `husky` checks.
-So you only need to install and configure SonarCube locally and
-create two separate projects in SonarCube panel.
-First project for host app, and second project for client viewer app.
-TODO: add how to get started with local SonarCube for Alien in details.
-
-## Documentation
